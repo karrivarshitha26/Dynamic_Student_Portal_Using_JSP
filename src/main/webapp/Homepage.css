@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+.logo{
+  background-color: #007bff;
+}
+.edu{
+  /* border: solid black 2px ; */
+  margin-top:11px;
+}
+.searchbox
+{
+    position: relative;
+    left: 350px;
+}
+.search
+{
+    position: absolute;
+    top: 2px;
+    left: 1035px;
+    width: 20px;
+    height: 20px;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    height: 100%;
+    width: 100%;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }  
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+li a:hover {
+  background-color: black;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+.feature {
+    flex-basis: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+}
+.feature1{
+  opacity: 1;
+  transform: translateZ(0);
+  grid-area: text1; 
+  background-color: #ff914d;
+  transition-property: opacity,transform;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 25px 0;
+  border-radius: 10px;
+  color:#fff; 
+  font-weight:300;
+  -webkit-box-shadow: 0 0 10px rgba(134, 134, 134, 0.6);
+  flex-basis: 30%;
+}
+.feature2{
+  opacity: 1;
+  transform: translateZ(0);
+  grid-area: text1; 
+  background-color: #8c52ff;
+  transition-property: opacity,transform;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 25px 0;
+  border-radius: 10px;
+  color:#fff; 
+  font-weight:300;
+  -webkit-box-shadow: 0 0 10px rgba(134, 134, 134, 0.6);
+}
+.feature3{
+  opacity: 1;
+  transform: translateZ(0);
+  grid-area: text1; 
+  background-color: #729a44;
+  transition-property: opacity,transform;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 25px 0;
+  border-radius: 10px;
+  color:#fff; 
+  font-weight:300;
+  -webkit-box-shadow: 0 0 10px rgba(134, 134, 134, 0.6);
+  flex-basis: 30%;
+}
+.feature h3 {
+    color: #007bff;
+}
+.feature p {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.vision{
+    width:20%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.mission{
+    width:20%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.image{
+    background-image: url("image.jpg");
+    width: 1200px;
+    height: 600px;
+}
+.contact{
+  top: 100px;
+  margin-left: 40px;
+}
+.social{
+    margin-left: 30%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background:#00acee;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #FF0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+  }
+  
+  .fa-skype {
+    background:  #00aff0;
+    color: white;
+  }
+ .mapc{
+  display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+ }
